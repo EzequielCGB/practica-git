@@ -13,7 +13,8 @@ public class Proyecto{
 
         System.out.println("Ingrese un nombre");
         nombre = teclado.next();
-        System.out.println("Nombre: " + nombre);
+        
+        System.out.println("Hola " + nombre);
         teclado.close();
     }
 }
